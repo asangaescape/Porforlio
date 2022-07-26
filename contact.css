@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+
+   Author: Antoine Asanga
+   Date: 25th April 2020 
+   Filename: contact.css
+
+*/
+
+@import url('https://form.jotform.com/222060479472052');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/* header part */
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(contact.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+header ul {
+    font-size: 20px;
+    font-weight: bold;
+}
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 7px 20px;
+    border: 1px solid transparent;
+}
+ul li a:hover {
+    background-color: rgb(168, 136, 31);
+    color: rgb(80, 21, 55);
+}
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+body {
+    background-color: #efefef;
+    font-family: sans-serif;
+}
+/* contact box */
+.contact-form {
+    width: 60%;
+    max-width: 450px;
+    background: #f1f1f1;
+    position: absolute;
+    box-shadow: 0 0 20px 0 #000000b3;
+    top: 18%;
+    right: 5%;
+    transform: translate3d(-50%, -50%);
+    padding: 12px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    font-family: "MontSerrat", sans-serif;
+}
+
+.contact-form h1 {
+    margin-top: 0;
+    font-weight: 200;
+}
+
+.txtb {
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+
+.txtb label {
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+/* input field , textarea */
+.txtb input, .txtb textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+/* button */
+.btn{
+    position: absolute;
+    bottom: 17%;
+    right: 27%;
+    background: black;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 18px;
+    width: 27%  20%;
+    border: none;
+    border-radius: 20px;
+}
+
+/* Navigation bar box */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    padding: 8px;
+    background-color:black;

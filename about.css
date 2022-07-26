@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+
+   Author: Antoine Asanga
+   Date: 25th April 2020 
+   Filename: about.css
+
+*/
+
+/* Structural Styles */
+/* Sets HTML font-family as Montserrat of User screen */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Set the default page element styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* position header element, filters and sets background image colour, header and size. */
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(about.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+header ul {
+    font-size: 20px;
+    font-weight: bold;
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 7px 20px;
+    border: 1px solid transparent;
+}
+ul li a:hover {
+    background-color: rgb(230, 169, 169);
+    color: rgb(54, 17, 49);
+}
+
+/* End Structural Styles */
+
+
+/* Paragraph Styles */
+/* Alters the About me paragraph, setting Firstword size and colour, editing line height, position.. */
+.firstword{
+    color:white;
+    float: left;
+    font-family: Georgia;
+    font-size: 40px;
+    
+}
+h1 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    color: #fff;
+}
+p {
+    position: absolute;
+    top: 30%;
+    left: 36%;
+    color: #fff;
+    line-height: 30px;
+}
+
+/* End of Paragraph Styles */
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Class img sets height&width, sets the background image to the smiling team and forces it to cover the element*/
+img {
+    position: absolute;
+    width: 400px;
+    height: 420px;
+    top: 20%;
+    left: 100px;
+    border-radius: 10px;
+}
+
+/* Box Part */
+.box p {
+    position: absolute;
+    top: 20%;
+    right: 13%;
+    max-width: 1000px;
+    line-height: 1.2;
+    padding: 40px;
+    background:rgba(255,255,255,.2);
+    box-shadow:0 5px 15px rgba(0,0,0,0.5);
+}
+
+.box h1 {
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* Navigation bar box */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    padding: 8px;
+    background-color:black;
+}
+  
+

@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+
+   Author: Antoine Asanga
+   Date: 25th April 2020 
+   Filename: resume.css
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+/* header part */
+header {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 7px 20px;
+    border: 1px solid transparent;
+}
+ul li a:hover {
+    background-color: rgb(58, 32, 32);
+    color: rgb(212, 194, 32);
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* resume part */
+.resume {
+    top: 14%;
+    display: block;
+    position: absolute;
+    left: 20%;
+    outline: 10px solid black;
+}
+
+/* Navigation bar box */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    padding: 8px;
+    background-color:black;

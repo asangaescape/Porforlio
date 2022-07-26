@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+
+   Author: Antoine Asanga
+   Date: 30th April 2020 
+   Filename: goals.css
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Basic styles to be used with all devices and under all conditions */
+
+address, article, aside, blockquote, body, cite, 
+div, dl, dt, dd, em, figcaption, figure, footer, 
+h1, h2, h3, h4, h5, h6, header, html, img, 
+li, main, nav, nav a, ol, p, section, span, ul {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* header part */
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(goals.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+
+
+
+ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 7px 20px;
+    border: 1px solid transparent;
+}
+ul li a:hover {
+    background-color:black;
+    color: white;
+}
+ul li.active a {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Text Colour  */
+body {
+    color:rgb(255, 255, 255);
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+/* image icon for goals */
+img {
+    border-radius: 50%;
+    position: absolute;
+    width: 200px;
+    bottom: 20%;
+    right: 10%;
+}
+/* goals part */
+.goals h1 {
+    position: absolute;
+    top: 14%;
+    left: 10%;
+}
+.goals li {
+    font-size: 20px;
+}
+/* list of goals */
+li.first {
+    position: absolute;
+    top: 24%;
+    left: 12%;
+}
+
+li.second {
+    position: absolute;
+    top: 36%;
+    left: 12%;
+}
+
+li.third {
+    position: absolute;
+    top: 48%;
+    left: 12%;
+}
+
+li.forth {
+    position: absolute;
+    top: 65%;
+    left: 12%;
+}
+
+/* box Part */
+.goals {
+    position: absolute;
+    top: 7%;
+    left: 13%;
+    max-width: 1800px;
+    line-height: 1.2;
+    height: 200px;
+    padding: 300px;
+    background:rgba(255,255,255,.2);
+    box-shadow:0 5px 15px rgba(0,0,0,0.5);
+}
+
+.goals h1 {
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: white;
+}
+/* Navigation bar box */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    padding: 8px;
+    background-color:black;
